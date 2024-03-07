@@ -1,11 +1,10 @@
-'use client'
-import React from "react";
+"use client";
 import Image from "next/image";
 // internal
-import ContactForm from "../forms/contact-form";
 import contact_icon_1 from "@assets/img/contact/contact-icon-1.png";
 import contact_icon_2 from "@assets/img/contact/contact-icon-2.png";
 import contact_icon_3 from "@assets/img/contact/contact-icon-3.png";
+import ContactForm from "../forms/contact-form";
 
 const ContactArea = () => {
   return (
@@ -36,10 +35,12 @@ const ContactArea = () => {
                     </div>
                     <div className="tp-contact-info-content">
                       <p data-info="mail">
-                        <a href="mailto:contact@shofy.com">contact@shofy.com</a>
+                        <a href="mailto:pakhitiya007@gmail.com">
+                          pakhitiya007@gmail.com
+                        </a>
                       </p>
                       <p data-info="phone">
-                        <a href="tel:670-413-90-762">+670 413 90 762</a>
+                        <a href="tel:8801717022506">+8801 717022506</a>
                       </p>
                     </div>
                   </div>
@@ -55,7 +56,7 @@ const ContactArea = () => {
                           href="https://www.google.com/maps/place/New+York,+NY,+USA/@40.6976637,-74.1197638,11z/data=!3m1!4b1!4m6!3m5!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728!16zL20vMDJfMjg2"
                           target="_blank"
                         >
-                          84 sleepy hollow st. <br /> jamaica, New York 1432
+                          Pakundia, Kishoregonj. <br /> Dhaka, Bangladesh
                         </a>
                       </p>
                     </div>

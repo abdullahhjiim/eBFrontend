@@ -48,7 +48,7 @@ const HeaderTwo = ({ style_2 = false }) => {
                         <span>
                           <Facebook />
                         </span>{" "}
-                        7500k Followers
+                        Join Our Facebook Group
                       </a>
                     </div>
                     <div className="tp-header-info-item">
@@ -56,7 +56,7 @@ const HeaderTwo = ({ style_2 = false }) => {
                         <span>
                           <PhoneTwo />
                         </span>{" "}
-                        +(402) 763 282 46
+                        +(880) 1717022506
                       </a>
                     </div>
                   </div>

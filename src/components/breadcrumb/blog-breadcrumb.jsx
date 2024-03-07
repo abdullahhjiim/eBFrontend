@@ -1,11 +1,10 @@
-import React from "react";
-import bg from '@assets/img/breadcrumb/breadcrumb-bg-1.jpg';
+import bg from "@assets/img/breadcrumb/breadcrumb-bg-1.jpg";
 
 const BlogBreadcrumb = () => {
   return (
     <section
       className="breadcrumb__area include-bg pt-150 pb-150 breadcrumb__overlay breadcrumb__style-3"
-      style={{backgroundImage:`url(${bg.src})`}}
+      style={{ backgroundImage: `url(${bg.src})` }}
     >
       <div className="container">
         <div className="row">
@@ -14,7 +13,7 @@ const BlogBreadcrumb = () => {
               <h3 className="breadcrumb__title">Our Blog</h3>
               <div className="breadcrumb__list">
                 <span>
-                  <a href="#">Home</a>
+                  <a href="/">Home</a>
                 </span>
                 <span>Blog</span>
               </div>
