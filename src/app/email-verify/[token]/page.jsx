@@ -4,6 +4,10 @@ export const metadata = {
   title: "Shofy - Email Verify Page",
 };
 
+export function generateStaticParams() {
+  return [{ token: "1" }];
+}
+
 export default function EmailVerifyPage({ params }) {
   return (
     <>
