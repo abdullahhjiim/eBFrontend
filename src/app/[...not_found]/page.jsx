@@ -1,9 +1,9 @@
-import Link from "next/link";
-import Image from "next/image";
-import Wrapper from "@/layout/wrapper";
-import HeaderTwo from "@/layout/headers/header-2";
 import Footer from "@/layout/footers/footer";
-import error from '@assets/img/error/error.png';
+import HeaderTwo from "@/layout/headers/header-2";
+import Wrapper from "@/layout/wrapper";
+import error from "@assets/img/error/error.png";
+import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "Error Page",

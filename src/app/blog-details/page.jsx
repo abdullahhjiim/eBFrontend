@@ -1,9 +1,8 @@
-import Wrapper from "@/layout/wrapper";
-import HeaderTwo from "@/layout/headers/header-2";
-import Footer from "@/layout/footers/footer";
 import BlogDetailsArea from "@/components/blog-details/blog-details-area";
 import blogData from "@/data/blog-data";
-
+import Footer from "@/layout/footers/footer";
+import HeaderTwo from "@/layout/headers/header-2";
+import Wrapper from "@/layout/wrapper";
 
 export const metadata = {
   title: "Shofy - Blog Details Page",
