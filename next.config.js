@@ -5,6 +5,9 @@ const nextConfig = {
     domains: ['i.ibb.co','media.istockphoto.com','freepngimg.com','e7.pngegg.com','encrypted-tbn0.gstatic.com', 'res.cloudinary.com'],
   },
   output : "export",
+  images : {
+    unoptimized : true,
+  }
 }
 
 module.exports = nextConfig
