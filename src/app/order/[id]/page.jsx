@@ -1,11 +1,15 @@
-import Wrapper from "@/layout/wrapper";
-import HeaderTwo from "@/layout/headers/header-2";
-import Footer from "@/layout/footers/footer";
 import OrderArea from "@/components/order/order-area";
+import Footer from "@/layout/footers/footer";
+import HeaderTwo from "@/layout/headers/header-2";
+import Wrapper from "@/layout/wrapper";
 
 export const metadata = {
   title: "Shofy - Order Page",
 };
+
+export function generateStaticParams() {
+  return [{ id: "1" }];
+}
 
 export default function OrderPage({ params }) {
   return (
