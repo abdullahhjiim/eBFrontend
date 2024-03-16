@@ -5,7 +5,7 @@ const nextConfig = {
     domains: ['media.istockphoto.com','freepngimg.com','e7.pngegg.com','encrypted-tbn0.gstatic.com', 'res.cloudinary.com'],
   },
   distDir: "build",
-  output:"export",
+  // output:"export",
 }
 
 module.exports = nextConfig
