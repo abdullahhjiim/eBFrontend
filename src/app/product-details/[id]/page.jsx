@@ -4,12 +4,8 @@ import HeaderTwo from "@/layout/headers/header-2";
 import Wrapper from "@/layout/wrapper";
 
 export const metadata = {
-  title: "Shofy - Product Details Page",
+  title: "Tiyapakhi - Product Details Page",
 };
-
-export function generateStaticParams() {
-  return [{ id: "1" }];
-}
 
 export default function ProductDetailsPage({ params }) {
   return (
